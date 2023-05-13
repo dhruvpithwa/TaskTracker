@@ -1,0 +1,40 @@
+.border-grey{
+    border: darkgray 0.5px solid;
+}
+
+.container {
+    padding: 5px;
+    min-width: 480px;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section {
+    width: 19%;
+    height: 100%;
+    display: inline-block;
+    overflow-y: scroll;
+}
+
+.stage-label {
+    padding: 5px;
+    color: black;
+    background-color: aqua;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.task {
+    margin: 5px;
+    padding: 30px 10px;
+    max-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: lightgrey;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+

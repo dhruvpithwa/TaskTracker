@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <script type="text/javascript" src="./index.js"></script>
+        <link rel="stylesheet" href="./index.css"></link>
+    </head>
+    <body>
+        <div class="container">
+            <div class="section border-grey" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="stage-label">
+                    ON HOLD
+                </div>
+
+                <div class="task" id="1" draggable="true" ondragstart="drag(event)">
+                    TASK 1
+                </div>
+                <div class="task" id="2" draggable="true" ondragstart="drag(event)">
+                    TASK 2
+                </div>
+                <div class="task" id="3" draggable="true" ondragstart="drag(event)">
+                    TASK 3
+                </div>
+                <div class="task" id="4" draggable="true" ondragstart="drag(event)">
+                    TASK 4
+                </div>
+                <div class="task" id="5" draggable="true" ondragstart="drag(event)">
+                    TASK 5
+                </div>
+                <div class="task" id="6" draggable="true" ondragstart="drag(event)">
+                    TASK 6
+                </div>
+                <div class="task" id="7" draggable="true" ondragstart="drag(event)">
+                    TASK 7
+                </div>
+            </div>
+            <div class="section border-grey" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="stage-label">
+                    IN PROGRESS
+                </div>
+            </div>
+            <div class="section border-grey" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="stage-label">
+                    IN TESTING
+                </div>
+            </div>
+            <div class="section border-grey" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="stage-label">
+                    READY FOR DEPLOY
+                </div>
+            </div>
+            <div class="section border-grey" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="stage-label">
+                    DONE
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
