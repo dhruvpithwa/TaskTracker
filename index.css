@@ -14,7 +14,7 @@
     width: 19%;
     height: 100%;
     display: inline-block;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .stage-label {
